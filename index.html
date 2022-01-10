@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemoria | Development</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(66, 66, 66);
+
+        }
+
+        .navebar {
+            background-color: #333;
+            padding-top: 1px;
+            width: 98,5%;
+            height: 66px;
+            font-size: 20px;
+            padding-left: 40px;
+            padding-bottom: 30px;
+            padding-right: 0px;
+            border-color: #333;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 20px;
+            position: sticky;
+            top: 0;
+            
+        }
+
+        .bildnavebar {
+            width: 40px; 
+            height: 40px;
+        }
+        .bildhover {
+            color: #f2f2f2;
+            text-decoration: none;
+            border-color: #333;
+            border-width: 10px;
+            border-style: solid;
+            background-color: #333;
+            border-radius: 0%;
+        }
+        .bildhover:hover {
+            color: black;
+            text-decoration: none;
+            border-color: #3bb9e7;
+            border-width: 10px;
+            border-style: solid;
+            background-color: #3bb9e7;
+            border-radius: 0%;
+        }
+        .text {
+            background-color: #333;
+            font-size: 18px;
+            padding-left: 2cm;
+            padding-right: 2cm;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-color: #333;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 20px;
+            color: #f2f2f2;
+            
+        }
+        .text1 {
+            background-color: #3bb9e7;
+            font-size: 24px;
+            padding-left: 22cm;
+            padding-right: 2cm;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-color: #3bb9e7;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 20px;
+            color: #f2f2f2;
+            
+        }
+        /* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: 
+  ;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+ {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 464px;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+.fa {font-size:50px;}
+.text2 {
+  background-color: #3ce726;
+  font-size: 24px;
+  padding-left: 21cm;
+  padding-right: 2cm;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color: #3ce726;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 18px;
+  color: #f2f2f2;
+            
+}
+.text3 {
+  background-color: #e72626;
+  font-size: 24px;
+  padding-left: 20cm;
+  padding-right: 2cm;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-color: #e72626;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 18px;
+  color: #f2f2f2;
+            
+}
+.text4 {
+            background-color: #333;
+            font-size: 21px;
+            padding-left: 21cm;
+            padding-right: 2cm;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-color: #333;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 20px;
+            color: #f2f2f2;
+            
+        }
+    </style>
+
+<div class="navebar">
+  <ul>
+      <a class="home" href="https://soenke0809.github.io/NemoriaDev/"><img src="logo1-1.png" alt="alternativer_text" class="bildnavebar" /></a>
+      &nbsp; &nbsp; &nbsp; &nbsp;  
+      <a class="bildhover" href="https://soenke0809.github.io/NemoriaDev/Webseiten.html">Bestelle eine Webseite</a>
+      &nbsp; 
+      <a class="bildhover" href="https://soenke0809.github.io/NemoriaDev/Bot.html">Bestelle ein Bot</a>
+      &nbsp; 
+      <a class="bildhover" href="https://discord.gg/PvBSUtqeBh">Join unseren Discord</a>
+      &nbsp; 
+      <a class="bildhover" href="#">Nemoria.de</a>
+    </ul>
+
+    </div>
+    <div>
+        &nbsp; 
+    </div>
+    <div>
+        &nbsp; 
+    </div>
+    <div>
+        &nbsp; 
+    </div>
+    <div class="text1">
+        Über uns
+
+    </div>
+    <div>
+        &nbsp; 
+    </div>
+    <div>
+      &nbsp; 
+  </div>
+    <div class="text">
+        Nemoria | Development gehört zu Nemoria.de. Nemoria ist ein Minecraft Netztwerk (Momentan in 𝑊𝑎𝑟𝑡𝑢𝑛𝑔𝑠𝑎𝑟𝑏𝑒𝑖𝑡𝑒𝑛). Wir haben uns auch dazu entschlossen ein Free Discord Bot hosting zumachen. Du kannst hier Discord Bots mit Invits kaufen oder auch Webseiten (𝑐𝑜𝑚𝑖𝑛𝑔 𝑠𝑜𝑜𝑛...). Da wir mit dem programmieren von Discord Bots erst angefangen haben entschuldigen wir uns, wenn Fehler auftreten sollten (Diese dann im Support Melden!). Aber du kannst dir sicher sein das die Webseiten zu 90% selbst programmiert sind da wir dir eine tolle Webseite geben wollen und keine heruntergeladende! Du kannst zwischen vielen Paketen entscheiden du kannst dir auch eine Webseite nach deinen Vorstellungen anfertigen lassen! Die Wartezeit jenach Bestellung betägt 3 bis maximal 14 Tage!
+        
+        
+
+    </div>
+    <div>
+      &nbsp; 
+  </div>
+  <div>
+    &nbsp; 
+</div>
+<div>
+  &nbsp; 
+</div>
+<div>
+  &nbsp; 
+</div>
+
+  <div class="text1">
+    Statistiken
+  </div>
+  <div>
+    &nbsp; 
+</div>
+<div>
+  &nbsp; 
+</div>
+
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-user"></i></p>
+            <h3>1</h3>
+            <p>Partners</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-check"></i></p>
+            <h3>1</h3>
+            <p>Projekte</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-smile-o"></i></p>
+            <h3>1</h3>
+            <p>Glückliche User</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-coffee"></i></p>
+            <h3>1</h3>
+            <p>Abgeschlossende Projekte </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        &nbsp; 
+    </div>
+    <div>
+      &nbsp; 
+  </div>
+  <div>
+    &nbsp; 
+</div>
+<div class="text1">
+  Status
+</div>
+<div>
+  &nbsp; 
+</div>
+<div>
+  &nbsp; 
+</div>
+  <div class="text2">
+   Bots: Online
+    </div>
+    <div>
+      &nbsp; 
+    </div>
+    
+    <div class="text3">
+      Webseiten: Offline
+       </div>
+       <div>
+        &nbsp; 
+      </div>
+      <div>
+        &nbsp; 
+      </div>
+      
+       <div class="text1">
+        Updates
+
+       </div>
+       <div>
+        &nbsp; 
+      </div>
+      <div>
+        &nbsp; 
+      </div>
+        <div class="text4">
+           Version 1.0.0 (Beta)
+           </div>
+            <div>
+              &nbsp; 
+                </div>  
+              <div class="text">
+                   - &nbsp;Webseiten Release <br> - &nbsp;Bug fixes 
+                   </div>
+      
+</body>
+</html>
